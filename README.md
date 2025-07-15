@@ -4,7 +4,6 @@ Features:
 Password strength meter (Weak / Medium / Strong)
 Show/hide password toggle
 Secure password generator
-Copy-to-clipboard with visual feedback ("Copied!")
-Soft green design with a footer
+Copy-to-clipboard
 100% client-side, no backend
 Note: The app doesn't store your password. 
