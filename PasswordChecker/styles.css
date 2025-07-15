@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+}
+
+input[type="password"], input[type="text"] {
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin: 15px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+#generate-btn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+#generate-btn:hover {
+  background-color: #388E3C;
+}
+
+#show-toggle {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+#strength {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#strength.Weak {
+  color: red;
+}
+
+#strength.Medium {
+  color: orange;
+}
+
+#strength.Strong {
+  color: green;
+}
+
+#advice-list {
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #555;
+}
+
+#generated-output {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  word-break: break-all;
+  color: #2a2a2a;
+}
+footer {
+  background-color: rgba(26, 165, 63, 0.89);  
+  padding: 15px 0;                      
+  text-align: center;                   
+  color: white;                    
+  font-size: 14px;                  
+  position: fixed;                     
+  width: 100%;                      
+  bottom: 0;                     
+}
